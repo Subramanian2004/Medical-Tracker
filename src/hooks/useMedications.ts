@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
-import { Medication, MedicationLog, MedicationWithLog } from '../types';
+import { MedicationWithLog } from '../types';
 import { getTodayDate, isMedicationOverdue } from '../utils/helpers';
 import { useAuth } from '../lib/AuthContext';
 
